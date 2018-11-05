@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.topbar.MainActivity">
+
+    <com.example.lenovo.topbar.topbar.BarView
+        android:id="@+id/tl_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bar_type="NORMAL"
+        app:customer_menu=""
+        app:leftText="hahahaha"
+        app:leftTextSize="3dp"
+        app:rightText="221"
+        app:rightTextSize="5dp"
+        app:titleText="title"
+        app:titleTextSize="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
